@@ -2,7 +2,7 @@ import { Cordova, Plugin } from './plugin';
 /**
  * @name Android Fingerprint Auth
  * @description
- * This plugin will open a native dialog fragment prompting the user to authenticate using their fingerprint. If the device has a secure lockscreen (pattern, PIN, or password), the user may opt to authenticate using that method as a backup.
+ * This plugin will open a native dialog fragment prompting the user to authenticate using their fingerprint. If the device has a secure lockscreen (pattern, PIN, or password), the user may opt to authenticate using that method as a backup. Make sure to do this when platform is 'ready' as shown at https://ionicframework.com/docs/v2/api/platform/Platform/#ready.
  * @usage
  * ```typescript
  * import { AndroidFingerprintAuth } from 'ionic-native';
